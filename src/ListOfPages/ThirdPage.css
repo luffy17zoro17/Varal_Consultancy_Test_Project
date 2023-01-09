@@ -88,6 +88,22 @@
 
     }
 
+
+    .registr_learnMore,.visas_learnMore{
+        color:blue;
+        font-size: medium;
+        display: flex;
+        gap: 5px;
+        padding-left: 4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+
+
+
+
+
     .imgTwo_body {
         margin-top: 3rem;
     }
