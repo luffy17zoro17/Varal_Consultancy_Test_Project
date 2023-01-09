@@ -215,7 +215,7 @@
     .ReadAbout_content{
         display: flex;
         align-items: center;
-      
+        margin-bottom: 2vw ;
         margin-left: -1.6rem;
     }
 
