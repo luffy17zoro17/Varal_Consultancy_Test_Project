@@ -46,16 +46,19 @@ h2 > span {
 }
 
 .bottom_heading {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 300;
-    margin-right: 8.5rem;
+    text-align: start;
+    padding-left: 4rem;
+    border:solid;
     color:blue;
 }
 
 .bottom_para {
  color:grey;
  text-align: start;
- margin-left: 5.2rem;
+ margin-left: 4rem;
+ margin-right: 4rem;
 }
 
 .button_body {
