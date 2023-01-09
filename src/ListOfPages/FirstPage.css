@@ -50,12 +50,13 @@ h2 > span {
     font-weight: 300;
     text-align: start;
     padding-left: 4rem;
-   
+
     color:blue;
 }
 
 .bottom_para {
  color:grey;
+ line-height: 1.4rem;
  text-align: start;
  margin-left: 4rem;
  margin-right: 4rem;

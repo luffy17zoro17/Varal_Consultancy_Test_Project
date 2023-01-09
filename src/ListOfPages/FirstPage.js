@@ -24,8 +24,8 @@ const FirstPage = () => {
        </div>
        <h1 className="bottom_heading">UAE & Offshore Company</h1>
        <p className="bottom_para">We provide you with information about UAE
-        or Offshore Company Registration & help you setup
-       your company with a bank account and visas.</p>
+        or<br/> Offshore Company Registration & help you<br/> setup
+       your company with a bank account and<br/> visas.</p>
 
        <div className="button_body">
          <span className="button_l">Start a Company</span>
