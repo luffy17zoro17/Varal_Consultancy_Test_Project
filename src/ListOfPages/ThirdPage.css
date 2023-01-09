@@ -1,0 +1,246 @@
+
+@media only screen and (max-width: 600px) {
+   
+    .thirdPage_body{
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .thirdPage_innerBodyOne,.thirdPage_innerBodyTwo{
+        border:1px solid;
+        border-color:lightgray;
+        border-radius: 7px;
+        width:75%;
+        position: relative;
+        margin-top: 3rem;
+        
+    }
+
+    .registr_para ,.visas_para{
+
+        margin-left:11vw;
+        margin-right:11vw;
+        line-height: 6vw;
+
+    }
+
+    .imgOne_body{
+
+        position: relative;
+        margin-top: 3rem;
+    }
+
+
+
+    .blue_circle {
+        background-color:blue;
+        opacity: 13%;
+        border-radius: 5rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-top:22px;
+        margin-left: 30px;
+        position: absolute;
+    }
+
+    .adviceImg_one,.bankImg_two {
+        object-fit:contain;
+        
+    }
+
+    .adviceText_body,.bankText_body{
+       
+       text-align: center;
+    }
+
+
+    .advice_heading,.bank_heading {
+        
+        font-size: large;
+        text-align: left;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom:1rem;
+       
+
+    }
+
+    .advice_para,.bank_para{
+        text-align: left; 
+        color:gray;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        line-height: 1.5rem;
+        
+    }
+
+    .advice_learnMore,.bank_learnMore{
+        color:blue;
+        font-size: medium;
+        display: flex;
+        gap: 5px;
+        padding-left: 2rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .imgTwo_body {
+        margin-top: 3rem;
+    }
+}    
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+
+
+    .thirdPage_body{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       }
+   
+       .thirdPage_innerBodyOne{
+           border:1px solid;
+           border-color:lightgray;
+           border-radius: 7px;
+           width:31vw;
+         
+    
+          
+           margin-right: -43vw;
+       }
+
+
+
+      .thirdPage_innerBodyTwo{
+        border:1px solid;
+        border-color:lightgray;
+        border-radius: 7px;
+        width:31vw;
+        margin-top: -33rem;
+       
+    
+        margin-left: -43vw;
+    }
+
+
+    .thirdPage_innerBodyThree{
+        border:1px solid;
+        border-color:lightgray;
+        border-radius: 7px;
+        width:31vw;
+        margin-top: 5rem;
+       
+    
+        margin-right: -43vw;
+    }
+
+
+    .fourthPage_innerBodyFourth{
+        border:1px solid;
+        border-color:lightgray;
+        border-radius: 7px;
+        width:31vw;
+        margin-top: -33rem;
+       
+    
+        margin-left: -43vw;
+    }
+
+
+
+
+       .blue_circle {
+           background-color:blue;
+           opacity: 13%;
+           border-radius: 5rem;
+           height: 2.5rem;
+           width: 2.5rem;
+           margin-top:22px;
+           margin-left: 30px;
+           position: absolute;
+       }
+   
+       .adviceImg_one,.bankImg_two,.registrImg_three,.visasImg_fourth {
+           object-fit:contain;
+           width: 10vw;
+
+           
+       }
+   
+       .adviceText_body,.bankText_body,.registrText_body,.visasText_body{
+          
+          text-align: center;
+       }
+   
+   
+       .advice_heading,.bank_heading,.registr_heading,.visas_heading {
+           
+           font-size: large;
+           text-align: left;
+           padding-left: 2rem;
+           padding-right: 2rem;
+           padding-top: 2rem;
+           padding-bottom:1rem;
+          
+   
+       }
+   
+       .advice_para,.bank_para,.registr_para,.visas_para{
+           text-align: left; 
+           color:gray;
+           padding-left: 2rem;
+           padding-right: 2rem;
+           line-height: 1.5rem;
+           
+       }
+   
+       .advice_learnMore,.bank_learnMore,.registr_learnMore,.visas_learnMore{
+           color:blue;
+           font-size: medium;
+           display: flex;
+           gap: 5px;
+           padding-left: 2rem;
+           padding-top: 2.5rem;
+           padding-bottom: 2rem;
+   
+       }
+
+       .imgOne_body{
+   
+        position: relative;
+        margin-top: 3rem;
+      }
+   
+       .imgTwo_body {
+           margin-top: 3rem;
+           object-fit: contain;
+          
+       }
+
+
+       .imgThree_body {
+        margin-top: 3rem;
+        object-fit: contain;
+        
+       }
+
+
+       .imgFourth_body {
+        margin-top: 3rem;
+        object-fit: contain;
+      
+      }
+
+
+
+
+}

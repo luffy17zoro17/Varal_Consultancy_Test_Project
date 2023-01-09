@@ -1,0 +1,102 @@
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .navbar_body {
+       width: 100%;
+       display: flex;
+       justify-content:space-around;
+       align-items:center;
+       top:0;
+       position: fixed;
+       z-index:10;
+       padding-bottom: 4rem;
+
+       
+       
+    }
+
+    .nav_logo{
+       object-fit:contain;
+       
+       
+    }
+
+    .navbar_menu {
+        object-fit: contain;
+        position: fixed;
+        right:20px;
+        
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+
+    .navbar_body {
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items:center;
+        top:0;
+        position: fixed;
+        z-index:10;
+        padding-bottom: 7vw;
+       
+        
+ 
+        
+        
+     }
+
+     .logo_class {
+        margin-left: -19vw;
+        scale:130%;
+     }
+ 
+     .nav_logo{
+        object-fit:contain;
+        display:flex;
+        
+        
+        
+        border:solid;
+        
+        margin-top: 1rem;
+        
+     }
+ 
+     .navbar_menu {
+         object-fit: contain;
+        visibility: hidden;
+               
+     }
+
+
+     .horizontal_menu {
+        display:flex;
+        position: fixed;
+        right: 7vw;
+        color:black;
+        list-style-type: none;
+        font-size: 1.5vw;
+        gap:3rem;
+        top:1.4;
+        background-color: transparent;
+        align-items: center;
+     }
+
+     .topBlue_button {
+        background-color: blue;
+        color:white;
+        padding: 1vw;
+        border-radius: 0.3vw;
+     }
+
+}   
