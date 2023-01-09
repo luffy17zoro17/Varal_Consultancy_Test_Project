@@ -14,6 +14,7 @@
 }
 
 
+
 .subHead_desktop{
 
     visibility: hidden;
@@ -26,6 +27,10 @@
 }
 
 
+.rightPart_body{
+    margin-right: 6rem;
+    
+}
 
 
 .footer_outerBody {
@@ -66,7 +71,7 @@ ul{
 
 .outer_body {
     display: flex;
-    justify-content: center;
+    
     
 }
 
@@ -80,7 +85,8 @@ ul{
 
 .email_body {
     display: flex;
-
+    margin-top: -5rem;
+   
 }
 
 .email_input {
